@@ -38,7 +38,26 @@ Using SDK
 
 ```bash
 npm install encryptlab
+```
 
+```js
+const encryptlab = require("encryptlab");
+
+// encryption list
+console.log(encryptlab);
+
+(async () => {
+  const encrypted = await encryptlab.tripleDes.encrypt(
+    "Hello World",
+    "HelloWorldKey"
+  );
+  const decrypted = await encryptlab.tripleDes.decrypt(
+    "aH1rtsLpBFA9P6DqbrQr0w==",
+    "HelloWorldKey"
+  );
+  console.log(encrypted);
+  console.log(decrypted);
+})();
 ```
 
 or
