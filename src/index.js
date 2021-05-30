@@ -1,6 +1,5 @@
-module.exports.tripleDes = require('./3des');
-module.exports.aes = require('./aes');
-module.exports.blowfish = require('./blowfish');
-module.exports.rsa = require('./rsa');
-module.exports.twofish = require('./twofish');
-
+module.exports.tripleDes = require("./lib/3des");
+module.exports.aes = require("./lib/aes");
+module.exports.blowfish = require("./lib/blowfish");
+module.exports.rsa = require("./lib/rsa");
+module.exports.twofish = require("./lib/twofish");

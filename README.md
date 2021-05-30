@@ -32,6 +32,24 @@ The purpose of EncryptLab is to make it easier for developers to understand how 
 
 - [AES](#aes)
 
+### Usage
+
+Using SDK
+
+```bash
+npm install encryptlab
+
+```
+
+or
+
+Using NPX Local Web Server
+
+```bash
+# the server will listening on port 3000!
+npx encryptlab
+```
+
 ### How to start Local Development ?
 
 ```bash
@@ -48,13 +66,6 @@ $ npm run build:css
 $ npm run watch
 # run test
 $ npm run test
-```
-
-or
-
-```bash
-# the server will listening on port 3000!
-npx encryptlab
 ```
 
 ### Want to add any encryption method ?
@@ -90,4 +101,4 @@ Thanks to all of you who spend times to build this repository.
 
 EncryptLab is under the [MIT License](LICENSE.md)
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://gitHub.com/fauzan121002/)
+![https://www.producthunt.com/posts/encryptlab?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-encryptlab](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=272289&theme=light)
